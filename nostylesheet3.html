@@ -1,0 +1,929 @@
+stylesheet3
+<!DOCTYPE html>
+<html>
+  <head>
+<style>
+  * {
+    box-sizing: border-box;
+  }
+  body {
+    margin: 0;
+    background-color: #F4F4F4;
+    font-family: Arial, Helvetica, sans-serif;
+    
+  }
+  .bar1 {
+ background-color: #FFA923;
+ height: 50px;
+ margin-top: 0;
+ margin-bottom: 0;
+ padding-top: 20px;
+  }
+  .bar2 {
+    background-color: #FFFFFF;
+    height: 90px;
+    margin-top: 0;
+   width: 100%;
+  }
+  .bar3 {
+    color: white;
+    
+   padding-left: 60px;  
+  }
+ .bar3:hover {
+  opacity: 0.5;
+ }
+ .img {
+  height: 50px;
+  width: 50px;
+  margin-top: 15px;
+    margin-left: 50px;
+ }
+ .display {
+  display: none;
+ }
+ #navbar {
+  display: inline;
+  float: right;
+  padding-right: 850px;
+  padding-top: 15px;
+ 
+  
+ }
+
+ a {
+  text-decoration: none;
+ }
+.ll:hover {
+  opacity: 0.8;
+}
+ .ll a {
+  color: black;
+ }
+ .imgd {
+  height: 12px;
+ }
+ .display {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+ }
+ .display a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+ }
+ .display a:hover {
+  background-color: #f1f1f1;
+ }
+ li.ll {
+  display: inline-block;
+}
+.ll:hover .display {
+  display: block;
+}
+.trt {
+ margin-top: 16px;
+  margin-left: 150px;
+}
+.ff {
+  background-color: #FFFFFF;
+  overflow: hidden;
+  width: 50%;
+  padding: 10px;
+
+}
+@media screen and (max-width:999px) {
+  .bar2 {
+    display: none;
+  } 
+  #bb {
+    display: none;
+  }
+}
+@media screen and (max-width:999px) { 
+  #aa {
+    display: block;
+    background-color: greenyellow;
+    width: 100%;
+  }
+  #bb {
+    display: none;
+  }
+  .trt {
+    margin-left: 15px;
+    margin-top: 10px;
+  }
+  .ff {
+    padding-left: 0;
+    padding-bottom: 50px;
+    display: inline-block;
+    padding-right: 430px;
+  }
+}
+@media screen and (min-width:1000px) {
+  #aa {
+    display: none;
+  }
+
+  #bb {
+    display: none;
+   padding: 10px;
+  }
+}
+#bb li {
+ list-style-type: none;
+}
+hr {
+  opacity: 0.3;
+
+}
+#aso1 {
+  display: none;
+
+}
+#aso2 {
+  display: none;
+}
+#aso3 {
+  display: none;
+}
+.aso1 .active {
+ height: 100px;
+}
+.tyu a {
+  display: block;
+  padding: 5px 12px;
+}
+.span {
+  font-size: 30px;
+}
+.slide a {
+  color: black;
+}
+.slide li  {
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+#text {
+  display: block;
+    width: 78%;
+    border: 1px solid white;
+    background-color: #ECECEC;
+    margin-top: 0;
+    padding-top: 0;
+    display: block;
+    padding: 15px;
+    margin-left: 120px;
+    border-radius: 5px;
+    top: 70px;
+    position: absolute;
+    transition: all .10s ease
+}
+#search {
+  top: 74px;
+    display: block;
+    float: right;
+    position: absolute;
+    margin-left: 1240px;
+    margin-top: 7px;
+    cursor: pointer;
+}
+#search:hover {
+  opacity: 0.6;
+}
+.card {
+  background-color: #FFFFFF;
+    width: 658px;
+    padding-left: 20px;
+   padding-top: 10px;
+   padding-bottom: 4px;
+   margin-top: 10px;
+}
+.ddd {
+  padding-top: 50px;
+}
+.err {
+  float: left;
+  padding-top: 20px;
+  width: 250px;
+  margin-right: 10px;
+}
+.ttt {
+  padding-top: 30px;
+}
+.qww {
+  width: 20px;
+    float: left;
+    margin-right: 10px;
+}
+.kkl {
+  font-size: 15px;
+    background-color: #FF5800;
+    color: white;
+    float: right;
+    margin-right: 243px;
+    padding: 2px;
+    margin-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.rightcolumn {
+  float: left;
+  width: 30%;
+}
+.leftcolumn {
+  float: left;
+}
+.sub {
+  display: block;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #FF5F0B;
+    color: white;
+    border: 1px;
+    border-radius: 5px;
+}
+.llo {
+  border: 2px solid orange;
+    color: red;
+    margin-left: 10px;
+    padding: 2px;
+}
+.footer {
+  clear: both;
+  content: "";
+  display: table;
+}
+.kio {
+  width: 100px;
+  padding-bottom: 10px;
+}
+.oop {
+  color: white;
+    float: right;
+    padding-right: 30px;
+}
+.clear {
+  clear: both;
+  content: "";
+  display: table;
+}
+.bbd {
+  clear: both;
+  content: "";
+  display: table;
+  color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    font-size: 20px;
+}
+@media screen and (max-width: 1441px) {
+  .row {
+    margin-left: 0  !important;
+    margin-right: 0  !important;
+  }.rightcolumn {
+    margin-left: 70px !important;
+  }
+}
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100% !important;
+    padding: 0 !important;
+  } 
+}
+  @media screen and (max-width: 800px) {
+    html {
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+    overflow: auto !important;
+    }
+  } 
+  @media screen and (max-width: 800px) {
+  body {
+    padding-right: 0 !important;
+    margin-right: 10px !important;
+    overflow-x: hidden !important;
+  }
+}
+@media screen and (max-width: 800px) {
+.bar1 {
+    padding-right: 0 !important;
+    margin-right: 0 !important;
+  }
+}
+@media screen and (max-width: 800px) {
+.row {
+    margin-left: 10px !important;
+    margin-right: 0 !important;
+  }
+}
+@media screen and (max-width: 800px) {
+.card {
+    width: 415px !important;
+    background-color: #FFFFFF !important;
+    padding-left: 20px !important;
+    padding-top: 10px !important;
+    padding-bottom: 4px !important;
+    margin-top: 10px !important;
+    height: 1210px !important ;
+}
+  }
+  @media screen and (max-width: 800px) {
+  .serial {
+    background-color: #FFFFFF !important;
+    height: 400px !important;
+  } 
+}
+@media screen and (max-width: 800px) {
+.sdf {
+    float: right !important;
+    font-size: 15px !important;
+    padding-right: 5px !important;
+    opacity: 0.8 !important;
+    margin-right: 50px !important;
+}
+}
+@media screen and (max-width: 800px) {
+.ddd {
+  padding-top: 50px !important;
+}
+}
+@media screen and (max-width: 800px) {
+.err {
+  float: left !important;
+    padding-top: 20px !important;
+    width: 100px !important;
+    margin-right: 10px !important;
+}
+}
+@media screen and (max-width: 800px) {
+.kkl {
+  font-size: 15px !important;
+    background-color: #FF5800 !important;
+    color: white !important;
+    float: left !important;
+    margin-right: 243px !important;
+    padding: 2px !important;
+    margin-bottom: 5px !important;
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+}
+}
+@media screen and (max-width: 800px) {
+.ttt {
+  padding-top: 30px !important;
+    width: 375px !important;
+}
+}
+@media screen and (max-width: 800px) {
+.wer3 {
+  width: 400px !important;
+}
+}
+@media screen and (max-width: 800px) {
+.qww {
+  width: 20px !important;
+    float: left !important;
+    margin-right: 10px !important;
+    margin-left: 50px !important;
+}
+}
+@media screen and (max-width: 800px) {
+.vbc {
+  font-size: 15px !important;
+    opacity: 0.8 !important;
+    width: 375px !important;
+}
+}
+@media screen and (max-width: 800px) {
+.zwer {
+  text-align: center !important;
+    padding: 10px !important;
+    background-color: #FF5800 !important;
+    width: 20% !important;
+    color: white !important;
+    border-radius: 10px !important;
+    margin-left: 150px !important;
+}
+}
+@media screen and (max-width: 800px) {
+.leftcolumn {
+    width: 375px !important;
+    margin-bottom: 20px !important;
+  }
+}
+@media screen and (max-width: 800px) {
+.hello {
+    background-color: #FFFFFF !important;
+    padding-bottom: 20px !important;
+    margin-bottom: 20px !important;
+  }
+}
+@media screen and (max-width: 800px) {
+  .topboott {
+    width: 375px !important;
+    padding: 0 !important;
+    display: block !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+}
+@media screen and (max-width: 800px) {
+.lol {
+    margin-top: 10px !important;
+    margin-right: 0 !important;
+    margin-left: 160px !important;
+  }
+}
+@media screen and (max-width: 800px) {
+.ppui {
+    color: white !important;
+    text-align: center !important;
+  }
+}
+@media screen and (max-width: 800px) {
+.kio {
+    width: 100px !important;
+    padding-bottom: 10px !important;
+    margin-left: 3px !important;
+  }
+}
+@media screen and (max-width: 800px) {
+.oop {
+    color: white !important;
+    padding-right: 30px !important;
+    width: 300px !important;
+    margin-left: 20px !important;
+    float: right !important;
+  }
+}
+@media screen and (max-width: 800px) {
+.killer {
+    margin-left: 14px !important;
+    margin-top: 100px !important;
+  }
+}
+@media screen and (max-width: 800px) {
+.uyt {
+    color: white !important;
+    position: relative !important;
+    bottom: 65px !important;
+    font-size: 20px !important;
+    margin-left: 10px !important;
+  }
+}
+@media screen and (max-width: 800px) {
+.joll{
+    background-color: #FF5800;
+    padding: 10px !important;
+    margin: 0 !important;
+    color: #f1f1f1 !important;
+    float: left !important;
+    position: relative !important;
+    bottom: 38px !important;
+  }
+}
+@media screen and (max-width: 800px) {
+.bbd {
+    clear: both !important;
+    content: "" !important;
+    display: table !important;
+    color: white !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-bottom: 40px !important;
+    font-size: 20px !important;
+    width: 375px !important;
+  }
+}
+@media screen and (max-width: 800px) {
+.searchbott {
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    width: 375px !important;
+  }
+}
+@media screen and (max-width: 800px) {
+.clear {
+  background-color: #263039 !important;
+    padding: 10px !important;
+    padding-right: 0px !important;
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    color: white !important;
+    padding-left: 50px !important;
+}
+  }
+  @media screen and (max-width: 800px) {
+  .topbott, .searchbott .bottombott .leftbott {   
+    width: 100% !important;
+    padding: 0 !important;
+  }.footer {
+    background-color: #15202B !important;
+    width: 100% !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }.vgv {
+  width: 100%  !important;
+   float: right  !important;
+  }.fuck {
+    float: left !important;
+    width: 100% !important;
+  }.rightcolumn {
+    margin-left: 0px !important;
+  }.qas {
+    position: relative;
+    bottom: 10px;
+  }.rightcolumn {
+    margin-left: 0px !important;
+  }.qas {
+    position: relative;
+    bottom: 10px;
+  }.ccv {
+    width: 415px !important;
+    height: auto  !important;
+  }.err {
+    width: 400px !important;
+  }.gta5 {
+    background-color: #FFFFFF  !important;
+    padding-left: 20px  !important;
+    padding-right: 20px  !important;
+    overflow: hidden  !important;
+    margin-top: 20px  !important;
+    width: 415px  !important;
+    padding-bottom: 10px  !important;
+  }.rightcolumn {
+    margin-left: 0px !important;
+  }.ddd {
+    float: none !important;
+    right: 0px !important;
+    width: 0 !important;
+    bottom: 0 !important;
+    left: 0 !important;
+  }
+}
+.err:hover {
+  opacity: 0.6;
+}
+.err {
+  cursor: pointer;
+}
+.card {
+  background-color: #FFFFFF;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 4px;
+    margin-top: 10px;
+}
+.rightcolumn {
+  margin-left: 111px ;
+}
+.sdf {
+  float: right !important;
+    font-size: 15px !important;
+    padding-right: 5px !important;
+    opacity: 0.8 !important;
+}
+.err {
+  width: 150px ;
+}
+.ttt {
+  padding-top: 30px !important;
+    clear: left !important;
+}
+.kio:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}
+.ccv {
+  background-color: #FFFFFF  !important;
+    padding-left: 20px  !important;
+    padding-top: 10px  !important;
+    padding-bottom: 4px  !important;
+    margin-top: 10px  !important;
+}
+</style>
+  </head>
+  <body>
+  <div class="bar1">
+    <a href="#" class="bar3">About Us</a>
+    <a href="#" class="bar3">Privacy Policy</a>
+  </div>
+  <img src="images/menubar.jpg" style="width: 30px;height: 30px;cursor: pointer;" id="aa" class="aa" onclick="yui()">
+  <div id="bb" style="margin: 0;">
+    <ul class="slide" id="slide">
+      <li class="overlay"><a href="#">Recents Post<img src="images/coss.jpg" style="width: 30px;height: 30px;float: right;margin: -15px;margin-right: 20px;" id="cross" onclick="cross()"></a></li>
+      <hr>
+      <li class="overlay">
+        <a href="#" onclick="ppp()" class="music">Music Information<img src="images/droop.jpg" class="imgd"></a>
+        <div id="aso1" class="aso1 tyu">
+          <a href="#"><span class="span">.</span>Guitar Tutorial</a>
+          <a href="#"><span class="span">.</span>Tutorial</a>
+          <a href="#"><span class="span">.</span>Piano Tutorial</a>
+        </div>
+      </li>
+      <hr>
+      <li class="overlay">
+        <a href="#" onclick="ppp1()" class="it" >IT introductionsrc<img src="images/droop.jpg" class="imgd"></a>
+        <div id="aso2" class="aso2 tyu">
+          <a href="#"><span class="span">.</span>IT tutorial</a>
+          <a href="#"><span class="span">.</span>It network</a>
+          <a href="#"><span class="span">.</span>It amm</a>
+        </div>
+      </li>
+      <hr>
+      <li class="overlay">
+        <a href="#" onclick="ppp2()" class="law">Law<img src="images/droop.jpg" class="imgd"> </a>
+        <div id="aso3" class="aso3 tyu">
+          <a href="#"><span class="span">.</span>IT tutorial</a>
+          <a href="#"><span class="span">.</span>It network</a>
+        </div>
+      </li>
+      <hr>
+      <div style="margin-top: 350px;">
+        <hr style="width: 100%;">
+      <a href="#" style="padding-right: 10px;">About Us</a>
+      <a href="#" style="padding-right: 10px;">Contact Us</a>
+      <a href="#" style="padding-right: 10px;">Privacy Policy</a>
+      <a href="#">Site Map</a>
+      <hr style="width: 100%;">
+      </div>
+    </ul>
+  </div>
+  <div class="bar2" id="bar2" >
+   <a href="index.html"><img src="images/logo22.jpg" class="img" id="img"></a>
+  <ul id="navbar" >
+    <li  style="float: left;list-style-type: none;padding-right: 15px;" class="ll"><a href="#">Recents Post</a></li>
+    <li  style="float: left;list-style-type: none;padding-right: 15px;" class="ll">
+      <a href="#">Music Information<img src="images/droop.jpg" class="imgd"></a>
+      <div class="display">
+        <a href="#">Guitar Tutorial</a>
+        <a href="#">Music Tutorial</a>
+        <a href="#">Piano Tutorial</a>
+      </div>
+    </li>
+    <li  style="float: left;list-style-type: none;padding-right: 15px;"class="ll">
+      <a href="#">IT introductionsrc<img src="images/droop.jpg" class="imgd"></a>
+      <div class="display">
+        <a href="#">IT tutorial</a>
+        <a href="#"> It network</a>
+        <a href="#"> It amm</a>
+      </div>
+    </li>
+    <li  style="float: left;list-style-type: none;"class="ll">
+      <a href="#">Law<img src="images/droop.jpg" class="imgd"> </a>
+      <div class="display">
+        <a href="#">IT tutorial</a>
+        <a href="#"> It network</a>
+      </div>
+    </li>
+  </ul>
+  <img src="images/search.jpg" style="width: 15px;height: 15px;float: right;position: absolute;margin-left: 1000px;margin-top: 30px;cursor: pointer;" id="rrt" onclick="trr()">
+  <input type="text" placeholder="Search" style="display: none;" id="text"> <img src="images/coss.jpg" style="width: 25px;height: 25px;display: none;" id="search" onclick="blahzz()">
+  </div>
+    <div class="trt" style="margin-bottom: 15px;" >
+  </div>
+  <div class="row" style="margin-left: 150px;margin-right: 150px;" id="row">
+  <div class="leftcolumn" style="width: 60%;margin-bottom: 20px;">
+  <div class="card" style="background-color: #FFFFFF;  height: 1200px; width: 770px;" class="serial">
+    <h2>All Tip To Become International Law ( we must to know in Law )</h2>
+    <hr>
+    <img src="images/fakeimg3.jpg" style="width: 100%;">
+   <p style="padding-bottom: 20px;">Becoming an international lawyer can be a challenging yet rewarding career path. Here are some tips that can help you in pursuing a career in international law:
+  </p>
+  <p style="padding-bottom: 20px;">Article 1: Education and Training</p>
+  <p style="padding-bottom: 20px;">Pursue a degree in law from a reputed law school, preferably with a focus on international law.
+    Consider obtaining a Master's or a Ph.D. in international law, which can provide you with specialized knowledge and skills.
+    Participate in international law clinics, moot court competitions, and internships to gain practical experience.
+    Article 2: Language Skills</p>
+    <p style="padding-bottom: 20px;">Acquire fluency in at least one or more foreign languages, as this is essential for working in international law.
+      Consider taking language courses or immersing yourself in a foreign language-speaking environment to improve your language skills.
+      Article 3: Networking</p>
+      <p style="padding-bottom: 20px;">Attend conferences, seminars, and events that focus on international law to network with professionals in the field.
+        Join international law associations and organizations, such as the International Bar Association or the American Society of International Law, to expand your professional network.
+        Article 4: Specialization</p>
+        <div class="qas">
+ <a href="#" style="color: black;padding-right: 10px;">Tag</a>
+ <a href="#" style="color: black;padding-right: 10px;">Lawyer</a>
+ <a href="#" style="color: black;padding-right: 10px;">Law</a>
+ <a href="#" style="color: black;padding-right: 10px;">Social Information</a>
+ <hr>
+        </div>
+  </div>
+  <div class="ccv" style="overflow: hidden;width: 770px;height: 300px;">
+ <h3 style="font-size: 15px;float: left;text-decoration: underline;text-decoration-color: orange;text-decoration-thickness: 5px;text-decoration: underline; text-decoration-color: orange;text-decoration-thickness: 5px;" >You May Like</h3>
+ <a href="stylesheet4.html" style="cursor: pointer;"><p style="float: right;font-size: 15px;
+ padding-right: 5px;
+ opacity: 0.8;color: #0E151D;" class="sdf" >Show More</p></a>
+ <div class="ddd" style="float: left; width: 33.33%; position: relative;right: 100px;">
+ <a href="nostylesheet.html"><img src="images/fakeimg.jpg" class="err"></a>
+ <h4 class="ttt">All Tip To Become Real Estate law ( we must to know In law )</h4>
+ </div>
+ <div class="ddd" style="width: 33.33%;float: left;position: relative; right: 70px;">
+  <a href="stylesheet2.html"><img src="images/fakeimg2.jpg" class="err" ></a>
+  <h4 class="ttt">All Tip To Become International Law ( we must to know in Law )</h4>
+  </div>
+  <div class="ddd" style="width: 17.33%; position: relative;left: 540px;bottom: 225px;">
+    <a href="stylesheet3.html"><img src="images/fakeimg3.jpg" class="err"></a>
+    <h4 class="ttt">All Tip To Become Labor And Employment Law ( we must to know in Law )</h4>
+    </div>
+  </div>
+  <div style="background-color: #FFFFFF; padding-left: 20px; padding-right: 20px; overflow: hidden; margin-top: 20px; width: 770px; padding-bottom: 10px;" class="gta5">
+    <h5 style="font-size: 15px; float: left; text-decoration: underline; text-decoration-color: orange; text-decoration-thickness: 5px;">Post a Comment</h5>
+    <p style="float: right; opacity: 0.8;">See All Comment</p>
+    <button style="margin-top: 100px;  padding: 10px;   display: block;   margin-left: auto;   margin-right: auto;   width: 100%;    color: white;    background-color: #FF5800;  border: 1px; border-radius: 5px;">Post A Comment</button>
+  </div>
+  </div>
+  <div class="rightcolumn" id="rightcolumn" >
+  <div style="background-color: #FFFFFF; padding-left: 10px; padding-bottom: 1px; padding-top: 20px;border: 2px solid black;">
+    <img src="images/bell.jpg" style="width: 30px; height: 30px; display: block; margin-left: auto; margin-right: auto;">
+    <h3 style="text-align: center;">Follow By Email</h3>
+    <p>Get Notified About Next Update Direct to Your inbox</p>
+    <input type="text" placeholder="Email Adress" style="padding: 10px;display: block; margin-left: auto; margin-right: auto; padding-left: 50px; padding-right: 50px; text-align: center;">
+    <button class="sub">Subscribe</button>
+    <p style="font-size: 15px; opacity: 0.8;">* We promise that we don't spam !</p>
+  </div>
+  <div style="background-color: #FFFFFF;padding-left: 5px; padding-bottom: 40px;">
+    <h3 style="padding-top: 10px; font-size: 15px; text-decoration: underline;text-decoration-color: orange;text-decoration-thickness: 5px;">Popular Posts</h3>
+  </div>
+  <div style="background-color: #FFFFFF; padding-bottom: 30px;">
+    <h3 style="padding-top: 10px; padding-left: 10px; font-size: 15px; text-decoration: underline; text-decoration-color: orange; text-decoration-thickness: 5px;">Labels</h3>
+    <a href="#" class="llo">About US</a>
+    <a href="#" class="llo">Guitar Tutorial</a>
+    <a href="#" class="llo">IT introduction</a>
+    <a href="#" class="llo" style="top: 10px;
+    position: relative;">Law</a>
+    <a href="#" class="llo" style="top: 10px;
+    position: relative;">Lawyer</a>
+    <a href="#" class="llo" style="top: 10px;
+    position: relative;">Music Tutorial</a>
+  </div>
+  <div style="background-color: #FFFFFF;
+  padding-bottom: 20px;" class="hello">
+    <h3 style="padding-top: 10px; font-size: 15px; text-decoration: underline; text-decoration-color: orange; text-decoration-thickness: 5px;padding-left: 10px;">About ME</h3>
+    <img src="images/fakelogo.jpg" style="margin-left: 10px;"><p style="float: right;margin-right: 70px;">Movie Asian Eng Sub</p>
+  </div>
+  </div>
+  </div>
+  <div class="footer" style="background-color: #15202B; width: 100%; padding-left: 150px; padding-right: 150px;" id="footer">
+   <div style="padding-top: 20px;" class="topbott">
+    <img src="images/fakelogo.jpg" style="margin-top: 10px;" class="lol">
+    <div style="float: right;">
+    <h5 style="color: white;" class="ppui">Made with Love by</h5>
+    <p style="color: white;opacity: 0.7;" class="ppui">Our Website Which is designed in User friendly to handle by Piki Developers. Simple and elegant themes for making it more comfortable</p>
+    </div>
+   </div>
+   <hr style="color: white;width: 100%;">
+   <div style="width: 100%;" class="leftbott">
+      <h5 style="color: white;font-size: 20px;width: 100px;">Hot Post</h5>
+    <div style="width: 40%;float: left;" class="vgv">
+    <div>
+      <a href="nostylesheet.html"><img src="images/fakeimg.jpg" class="kio"></a>
+      <p class="oop">All Tip To Become President Of United State</p>
+    </div>
+    <div>
+    <a href="stylesheet2.html"><img src="images/fakeimg2.jpg" class="kio"></a>
+    <p class="oop" style="padding-right: 80px;">All Tip To Become International Laws</p>
+  </div>
+  <div>
+  <a href="stylesheet3.html"><img src="images/fakeimg3.jpg" class="kio"></a>
+  <p class="oop">All Tip To Become labor Or Employments</p>
+</div>
+   </div>
+   <div style="width: 40%;float: left;margin-left: 14px;" class="killer">
+    <h5 style="color: white; position: relative; bottom: 85px;font-size: 20px;">Label</h5>
+    <p style="color: white;position: relative; bottom: 80px;">About Us     (1)</p>
+    <p style="color: white;position: relative; bottom: 80px;">Guitar    (2)</p>
+    <p style="color: white;position: relative;bottom: 80px;">Law     (3)</p>
+    <p style="color: white;position: relative;bottom: 80px;">Lawyer     (4)</p>
+    <p style="color: white;position: relative; bottom: 80px;">angry     (2)</p>
+   </div>
+   <div style="width: 18%;float: left;" class="fuck">
+    <p style="color: white;position: relative; bottom: 65px;font-size: 20px;" class="uyt">Recents Post</p>
+   </div>
+   </div>
+   <p class="bbd">Search This Blog</p>
+   <div style="display: block;
+   margin-left: auto;
+   margin-right: auto;" class="searchbott">
+   <input type="text" placeholder="Search" class="clear" style="background-color: #263039;
+   padding: 10px;
+   padding-right: 100px;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;color: white;">
+   <span style="background-color: #FF5800;width: 100px;padding: 10px;margin: 0;color: #f1f1f1;float: left;
+   position: relative;
+   bottom: 38px;
+   margin-left: 710px;" class="joll">Search</span>
+   </div> 
+ <div style="background-color: #0E151D;;" class="bottombott">
+  <div style="display: block; margin-left: auto;  margin-right: auto; text-align: center; padding-top: 50px; padding-bottom: 10px;">
+  <a href="#" style="color: white;text-decoration: none;  background-color: #1E242A; padding: 10px;border-radius: 20px; opacity: 0.8;">Home</a>
+  <a href="#" style="color: white;text-decoration: none;  background-color: #1E242A; padding: 10px;border-radius: 20px; opacity: 0.8;">About Us</a>
+  <a href="#" style="color: white;text-decoration: none;  background-color: #1E242A; padding: 10px;border-radius: 20px; opacity: 0.8;">Contact Us</a>
+  <a href="#" style="color: white;text-decoration: none;  background-color: #1E242A; padding: 10px;border-radius: 20px; opacity: 0.8;">Privacy Policy</a>
+  <p style="color: white;margin-top: 50px;">Design By Our Website Copyright 2023</p>
+  </div>
+ </div>
+</div>
+  <script src="file1.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script>
+    var navbar= document.getElementById("navbar");
+    var rrt=document.getElementById("rrt");
+    window.onresize= function () {
+    if (innerWidth < 1294) {
+   navbar.style.paddingRight="400px";
+   rrt.style.marginLeft="700px";
+
+    } else if (innerWidth < 1470) {
+      navbar.style.paddingRight="700px";
+      rrt.style.marginLeft="900px";
+    }
+    else {
+      navbar.style.paddingRight="850px";
+    }
+} 
+var bb= document.getElementById("bb");
+var aa= document.getElementById("aa");
+var body=document.body;
+var ioo=document.getElementsByClassName("ioo")[0];
+var slide=document.getElementById("slide");
+var text=document.getElementById("text");
+var navbar=document.getElementById("navbar");
+var rrt1=document.getElementById("rrt");
+var img=document.getElementById("img");
+var fff=document.getElementById("search");
+function trr() {
+  text.style.display="block";
+ navbar.style.display="none";
+ rrt.style.display="none";
+ img.style.display="none";
+ fff.style.display="block";
+}
+function blahzz() {
+  text.style.display="none";
+ navbar.style.display="";
+ rrt.style.display="";
+ img.style.display="";
+ fff.style.display="none";
+}
+var row5= document.getElementById("row");
+var footer54=document.getElementById("footer");
+ function yui() {
+ body.style.backgroundColor="#FFFFFF";
+  bb.style.display="block";
+ aa.style.display="none";
+ ioo.style.display="none";
+ body.style.transition="all .5s cubic-bezier(.79,.14,.15,.86)";
+ body.style.transform="translateX(0)";
+ body.style.opacity=".99";
+ row5.style.display="none";
+ footer54.style.display="none";
+ }
+ function cross() {
+  body.style.backgroundColor="";
+  bb.style.display="";
+ aa.style.display="";
+ ioo.style.display="";
+ body.style.transition="";
+ body.style.transform="";
+ body.style.opacity="";
+ row5.style.display="block";
+ footer54.style.display="block";
+ }
+ var aso1=document.getElementById("aso1");
+ var aso2=document.getElementById("aso2");
+ var aso3=document.getElementById("aso3");
+$(document).ready(function() {
+ $('.music').click(function() {
+ $('.aso1').slideToggle();
+ });
+});
+$(document).ready(function() {
+ $('.it').click(function() {
+ $('.aso2').slideToggle();
+ });
+});
+$(document).ready(function() {
+ $('.law').click(function() {
+ $('.aso3').slideToggle();
+ });
+});
+  </script>
+  </body>
+  <footer>
+
+  </footer>
+</html>
